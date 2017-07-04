@@ -17,6 +17,7 @@ class ApplicationController
     {
         self.navigationController = navigationController
         showJobsViewController()
+        startService()
     }
     
     func showJobsViewController()
@@ -25,5 +26,9 @@ class ApplicationController
         navigationController.setViewControllers([jobsViewController], animated: false)
     }
     
+    func startService(){
+        let servise = Servise()
+         servise.updateTime(name: "")
+    }
     
 }

@@ -11,5 +11,6 @@ import UIKit
 
 class Fonts
 {
-    
+ static let smallTimeFont = UIFont(name: "Montserrat-Regular", size: 15.0)
+    static let bigTimeFont = UIFont(name: "Montserrat-Regular", size: 35.0)
 }

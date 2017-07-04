@@ -7,3 +7,23 @@
 //
 
 import Foundation
+import UIKit
+
+class ApplicationController
+{
+    private var navigationController: UINavigationController
+    
+    init(navigationController: UINavigationController)
+    {
+        self.navigationController = navigationController
+        showJobsViewController()
+    }
+    
+    func showJobsViewController()
+    {
+        let jobsViewController = JobsViewController()
+        navigationController.setViewControllers([jobsViewController], animated: false)
+    }
+    
+    
+}

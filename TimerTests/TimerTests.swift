@@ -11,14 +11,24 @@ import XCTest
 
 class TimerTests: XCTestCase {
     
+    var dataBase = Database()
+    
+    
+    
     override func setUp() {
         super.setUp()
+        
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+    }
+    
+    func testSetNewElement() {
+        //let item = Item(amountTime: 30, name:"name")
+        //dataBase.saveItems(Items: ["name":item])
     }
     
     func testExample() {
@@ -32,5 +42,7 @@ class TimerTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    
     
 }

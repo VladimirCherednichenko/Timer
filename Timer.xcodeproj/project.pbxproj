@@ -10,10 +10,11 @@
 		1E62B73ACFD3B57745868593 /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55361F2200D5169D0C4F4080 /* Pods_TimerTests.framework */; };
 		59E1CF1EF26629B623C8E4BF /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EAF21434CF9D9387E2E5F7 /* Pods_Timer.framework */; };
 		A7E7D418060A17E6DF01F97B /* Pods_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E577C1329351E6367237B215 /* Pods_TimerUITests.framework */; };
+		E7B149FE1F0FB26B0093CB77 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B149FD1F0FB26B0093CB77 /* Item.swift */; };
 		E7C137521F0BC91A00D97BBD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C137511F0BC91A00D97BBD /* Fonts.swift */; };
 		E7C137541F0BCA0700D97BBD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7C137531F0BCA0700D97BBD /* Montserrat-Regular.ttf */; };
-		E7C1375A1F0BD53100D97BBD /* ItemStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C137591F0BD53100D97BBD /* ItemStruct.swift */; };
 		E7C137601F0BD7D300D97BBD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C1375F1F0BD7D300D97BBD /* Service.swift */; };
+		E7C137621F0E7FAC00D97BBD /* TimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C137611F0E7FAC00D97BBD /* TimerTableViewController.swift */; };
 		E7CD026C1F06848600E99DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD026B1F06848600E99DBC /* AppDelegate.swift */; };
 		E7CD026E1F06848600E99DBC /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD026D1F06848600E99DBC /* JobsViewController.swift */; };
 		E7CD02731F06848600E99DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CD02721F06848600E99DBC /* Assets.xcassets */; };
@@ -22,6 +23,8 @@
 		E7CD029A1F068AA900E99DBC /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD02991F068AA900E99DBC /* AppController.swift */; };
 		E7CD029C1F068C9B00E99DBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CD029B1F068C9B00E99DBC /* Default-568h@2x.png */; };
 		E7CD029E1F069D8400E99DBC /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD029D1F069D8400E99DBC /* Database.swift */; };
+		E7EA38601F2F4C8300CC54B8 /* TimerTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA385F1F2F4C8300CC54B8 /* TimerTableViewDataSource.swift */; };
+		E7EA38621F2F641F00CC54B8 /* TimerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA38611F2F641F00CC54B8 /* TimerLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +54,11 @@
 		DE15032C5BBD5D10DDEE3F02 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimerTests/Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3D52D6420E578B7A8A51CD5 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimerTests/Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E577C1329351E6367237B215 /* Pods_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B149FD1F0FB26B0093CB77 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E7C137511F0BC91A00D97BBD /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		E7C137531F0BCA0700D97BBD /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../Tetris/TetrisN/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		E7C137591F0BD53100D97BBD /* ItemStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemStruct.swift; path = ../../../../.Trash/ItemStruct.swift; sourceTree = "<group>"; };
 		E7C1375F1F0BD7D300D97BBD /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E7C137611F0E7FAC00D97BBD /* TimerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTableViewController.swift; sourceTree = "<group>"; };
 		E7CD02681F06848600E99DBC /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CD026B1F06848600E99DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CD026D1F06848600E99DBC /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		E7CD02991F068AA900E99DBC /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppController.swift; path = ../AppController.swift; sourceTree = "<group>"; };
 		E7CD029B1F068C9B00E99DBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E7CD029D1F069D8400E99DBC /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../Database.swift; sourceTree = "<group>"; };
+		E7EA385F1F2F4C8300CC54B8 /* TimerTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewDataSource.swift; sourceTree = "<group>"; };
+		E7EA38611F2F641F00CC54B8 /* TimerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,15 +141,18 @@
 		E7CD026A1F06848600E99DBC /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				E7CD029D1F069D8400E99DBC /* Database.swift */,
-				E7CD026B1F06848600E99DBC /* AppDelegate.swift */,
+				E7EA38611F2F641F00CC54B8 /* TimerLayout.swift */,
 				E7CD026D1F06848600E99DBC /* JobsViewController.swift */,
-				E7C137591F0BD53100D97BBD /* ItemStruct.swift */,
+				E7CD029D1F069D8400E99DBC /* Database.swift */,
+				E7C1375F1F0BD7D300D97BBD /* Service.swift */,
+				E7CD026B1F06848600E99DBC /* AppDelegate.swift */,
+				E7C137611F0E7FAC00D97BBD /* TimerTableViewController.swift */,
+				E7EA385F1F2F4C8300CC54B8 /* TimerTableViewDataSource.swift */,
 				E7CD02991F068AA900E99DBC /* AppController.swift */,
+				E7B149FD1F0FB26B0093CB77 /* Item.swift */,
 				E7CD02721F06848600E99DBC /* Assets.xcassets */,
 				E7C137511F0BC91A00D97BBD /* Fonts.swift */,
 				E7C137531F0BCA0700D97BBD /* Montserrat-Regular.ttf */,
-				E7C1375F1F0BD7D300D97BBD /* Service.swift */,
 				E7CD02771F06848600E99DBC /* Info.plist */,
 			);
 			path = Timer;
@@ -465,12 +474,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CD026E1F06848600E99DBC /* JobsViewController.swift in Sources */,
+				E7EA38601F2F4C8300CC54B8 /* TimerTableViewDataSource.swift in Sources */,
+				E7B149FE1F0FB26B0093CB77 /* Item.swift in Sources */,
 				E7C137601F0BD7D300D97BBD /* Service.swift in Sources */,
 				E7CD029A1F068AA900E99DBC /* AppController.swift in Sources */,
 				E7CD029E1F069D8400E99DBC /* Database.swift in Sources */,
-				E7C1375A1F0BD53100D97BBD /* ItemStruct.swift in Sources */,
+				E7C137621F0E7FAC00D97BBD /* TimerTableViewController.swift in Sources */,
 				E7CD026C1F06848600E99DBC /* AppDelegate.swift in Sources */,
 				E7C137521F0BC91A00D97BBD /* Fonts.swift in Sources */,
+				E7EA38621F2F641F00CC54B8 /* TimerLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +623,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VladimirCherednichenko.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -625,6 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VladimirCherednichenko.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

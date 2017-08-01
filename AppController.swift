@@ -9,15 +9,25 @@
 import Foundation
 import UIKit
 
-class ApplicationController
+protocol StartTimeListener
 {
+    func startTimer(id:String)
+}
+
+class ApplicationController:StartTimeListener
+{
+    
+    let dataBase = Database()
+    let servise:Servise
     private var navigationController: UINavigationController
     
     init(navigationController: UINavigationController)
     {
         self.navigationController = navigationController
-        showJobsViewController()
-        startService()
+        self.servise = Servise(dataBase:dataBase)
+        self.startService()
+        self.showTimerTableViewController()
+        
     }
     
     func showJobsViewController()
@@ -26,9 +36,22 @@ class ApplicationController
         navigationController.setViewControllers([jobsViewController], animated: false)
     }
     
-    func startService(){
-        let servise = Servise()
-         servise.updateTime(name: "")
+    func showTimerTableViewController()
+    {
+        
+        let timerTableViewController = TimeTableViewController(items:servise.dictionaryOfItems, startTimeListener:self)
+        navigationController.setViewControllers([timerTableViewController], animated: false)
+        
     }
     
+    func startService() {
+        
+        
+    }
+    
+    func startTimer(id:String){
+        print(id)
+        servise.setStartTime(id:id)
+        servise.startTimer(id:id)
+    }
 }

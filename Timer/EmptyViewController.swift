@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+class EmptyViewController:UIViewController
+{
+    var insertedView:UIView
+    init (view:UIView) {
+        self.insertedView = view
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    override func viewDidLoad() {
+        self.view.addSubview(insertedView)
+    }
+}
